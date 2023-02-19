@@ -1,0 +1,25 @@
+
+/* КУСОК КОДА ВЫРАВНИВАНИЯ ПО ЦЕНТРУ */
+.wrapper{
+    display: flex;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    font-size: 70px;
+    color: lightcoral;
+    transition: all 0.3s ease 0s;
+    text-shadow: 0 2px 2px #000;
+}
+
+.link::before{
+    margin: 0px 10px 0px 0px;
+}
+
+.link:hover{
+    color: #fff;
+}
+
+
